@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hotel Booking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="book">
+        <div class="description">
+            <h1><strong>Welcome to Nomad's Lobby</strong></h1>
+          <h2><strong>Book</strong> your hotel room</h2>
+          <p>
+            Make your booking at your convenience 
+          </p>
+          <div class="quote">
+            <p>
+              Booking made simple
+            </p>
+          </div>
+          <ul>
+            <li>Reliable service</li>
+            <li>24/7 customer srvice</li>
+            <li>Broader range of room selections</li>
+            <li>Convenience and comfort is ensured</li>
+          </ul>
+        </div>
+        <div class="form">
+          <form>
+            <div class="inpbox full">
+              <span class="flaticon-taxi"></span>
+              <select id="rooms" name="rooms">
+                <option value="">Select rooms</option>
+                <option value="volvo">Elite suite</option>
+                <option value="saab">Deublux</option>
+                <option value="fiat">Double bed room</option>
+                <option value="audi">Basic</option>
+              </select>
+            </div>
+           <!-- <div class="inpbox">
+              <span class="flaticon-globe"></span>
+              <input type="text" placeholder="Pickup Location">
+           
+            </div>   -->
+            <div class="inpbox">
+              <span class="flaticon-calendar"></span>
+              <input type="date" placeholder="check in date">
+            </div>
+           <!-- <div class="inpbox">
+               <span class="flaticon-location"></span>
+              <input type="text" placeholder="Drop Location">
+             
+            </div> -->
+            <div class="inpbox">
+              <span class="flaticon-calendar"></span>
+              <input type="date" placeholder="Check out date">
+            </div>
+            <div class="inpbox">
+              <span class="flaticon-user"></span>
+              <input type="text" placeholder="Full Name">
+            </div>
+            <div class="inpbox">
+              <span class="flaticon-email"></span>
+              <input type="email" placeholder="Email">
+            </div>
+            <div class="inpbox full">
+              <div class="inrbox">
+                <span class="flaticon-taxi"> Regular</span>
+                <input type="radio" name="customerType">
+                <h2>$50</h2>
+                <span>1 Customer</span>
+              </div>
+              <div class="inrbox">
+                <span class="flaticon-taxi"> Pro</span>
+                <input type="radio" name="customerType">
+                <h2>$120</h2>
+                <span>2 Customer</span>
+              </div>
+              <div class="inrbox">
+                <span class="flaticon-taxi"> Advance</span>
+                <input type="radio" name="customerType">
+                <h2>$180</h2>
+                <span>4 Customer or more</span>
+              </div>
+            </div>
+            <button class="subt">Submit</button>
+            <button class="rst">Reset</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
